@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C0B9EF825100B8200D21993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B9EF725100B8200D21993 /* AppDelegate.swift */; };
+		3C0B9EFA25100B8200D21993 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B9EF925100B8200D21993 /* SceneDelegate.swift */; };
+		3C0B9EFC25100B8200D21993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B9EFB25100B8200D21993 /* ViewController.swift */; };
+		3C0B9EFF25100B8200D21993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B9EFD25100B8200D21993 /* Main.storyboard */; };
+		3C0B9F0125100B8500D21993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B9F0025100B8500D21993 /* Assets.xcassets */; };
+		3C0B9F0425100B8500D21993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B9F0225100B8500D21993 /* LaunchScreen.storyboard */; };
+		3C0B9F102510261900D21993 /* dart-board-game-desktop-wallpaper-1306-1311-hd-wallpapers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B9F0F2510261900D21993 /* dart-board-game-desktop-wallpaper-1306-1311-hd-wallpapers.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C0B9EF425100B8200D21993 /* Jogo de Dardo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jogo de Dardo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0B9EF725100B8200D21993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C0B9EF925100B8200D21993 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C0B9EFB25100B8200D21993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C0B9EFE25100B8200D21993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C0B9F0025100B8500D21993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C0B9F0325100B8500D21993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C0B9F0525100B8500D21993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0B9F0F2510261900D21993 /* dart-board-game-desktop-wallpaper-1306-1311-hd-wallpapers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dart-board-game-desktop-wallpaper-1306-1311-hd-wallpapers.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C0B9EF125100B8200D21993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C0B9EEB25100B8200D21993 = {
+			isa = PBXGroup;
+			children = (
+				3C0B9EF625100B8200D21993 /* Jogo de Dardo */,
+				3C0B9EF525100B8200D21993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C0B9EF525100B8200D21993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C0B9EF425100B8200D21993 /* Jogo de Dardo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C0B9EF625100B8200D21993 /* Jogo de Dardo */ = {
+			isa = PBXGroup;
+			children = (
+				3C0B9F0E251025B300D21993 /* Images */,
+				3C0B9EF725100B8200D21993 /* AppDelegate.swift */,
+				3C0B9EF925100B8200D21993 /* SceneDelegate.swift */,
+				3C0B9EFB25100B8200D21993 /* ViewController.swift */,
+				3C0B9EFD25100B8200D21993 /* Main.storyboard */,
+				3C0B9F0025100B8500D21993 /* Assets.xcassets */,
+				3C0B9F0225100B8500D21993 /* LaunchScreen.storyboard */,
+				3C0B9F0525100B8500D21993 /* Info.plist */,
+			);
+			path = "Jogo de Dardo";
+			sourceTree = "<group>";
+		};
+		3C0B9F0E251025B300D21993 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3C0B9F0F2510261900D21993 /* dart-board-game-desktop-wallpaper-1306-1311-hd-wallpapers.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C0B9EF325100B8200D21993 /* Jogo de Dardo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0B9F0825100B8500D21993 /* Build configuration list for PBXNativeTarget "Jogo de Dardo" */;
+			buildPhases = (
+				3C0B9EF025100B8200D21993 /* Sources */,
+				3C0B9EF125100B8200D21993 /* Frameworks */,
+				3C0B9EF225100B8200D21993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jogo de Dardo";
+			productName = "Jogo de Dardo";
+			productReference = 3C0B9EF425100B8200D21993 /* Jogo de Dardo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C0B9EEC25100B8200D21993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Stephanie Fay";
+				TargetAttributes = {
+					3C0B9EF325100B8200D21993 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 3C0B9EEF25100B8200D21993 /* Build configuration list for PBXProject "Jogo de Dardo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C0B9EEB25100B8200D21993;
+			productRefGroup = 3C0B9EF525100B8200D21993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C0B9EF325100B8200D21993 /* Jogo de Dardo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C0B9EF225100B8200D21993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0B9F0425100B8500D21993 /* LaunchScreen.storyboard in Resources */,
+				3C0B9F0125100B8500D21993 /* Assets.xcassets in Resources */,
+				3C0B9F102510261900D21993 /* dart-board-game-desktop-wallpaper-1306-1311-hd-wallpapers.jpg in Resources */,
+				3C0B9EFF25100B8200D21993 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C0B9EF025100B8200D21993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0B9EFC25100B8200D21993 /* ViewController.swift in Sources */,
+				3C0B9EF825100B8200D21993 /* AppDelegate.swift in Sources */,
+				3C0B9EFA25100B8200D21993 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C0B9EFD25100B8200D21993 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C0B9EFE25100B8200D21993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C0B9F0225100B8500D21993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C0B9F0325100B8500D21993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C0B9F0625100B8500D21993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C0B9F0725100B8500D21993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C0B9F0925100B8500D21993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F9R8GBXD6;
+				INFOPLIST_FILE = "Jogo de Dardo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fay.Jogo-de-Dardo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3C0B9F0A25100B8500D21993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F9R8GBXD6;
+				INFOPLIST_FILE = "Jogo de Dardo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fay.Jogo-de-Dardo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C0B9EEF25100B8200D21993 /* Build configuration list for PBXProject "Jogo de Dardo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0B9F0625100B8500D21993 /* Debug */,
+				3C0B9F0725100B8500D21993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C0B9F0825100B8500D21993 /* Build configuration list for PBXNativeTarget "Jogo de Dardo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0B9F0925100B8500D21993 /* Debug */,
+				3C0B9F0A25100B8500D21993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C0B9EEC25100B8200D21993 /* Project object */;
+}
